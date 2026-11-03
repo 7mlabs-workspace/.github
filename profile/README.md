@@ -10,23 +10,25 @@ Technology for self-discovery and meaningful connection.
 
 | Product | Purpose | Status |
 | --- | --- | --- |
-| [Astro SDK](https://7mlabs.com/en/astro/sdk/) | Local calculations, structured JSON and customizable SVG charts for developers | **1.0.0 released** on npm, PyPI and NuGet |
-| Payload | A web environment for exploring SDK inputs and outputs | In development |
+| [Astro SDK](https://7mlabs.com/en/astro/sdk/) | Local calculations, structured JSON and customizable SVG charts for developers | **1.1.0 released** on npm, PyPI and NuGet |
+| [Payload](https://7mlabs.com/astro/payload/) | A web environment for exploring SDK inputs and outputs | Available |
 | Compass | An app for exploring and understanding yourself | In development |
+
+Existing Astro source and releases remain under [`7mLabs/sdk-astro`](https://github.com/7mLabs/sdk-astro). New SDK projects will be managed by `7mlabs-developer` in `7mlabs-workspace`.
 
 ## Start with Astro SDK
 
-[Source code](https://github.com/7mLabs/sdk-astro) · [English docs](https://7mlabs.com/en/astro/sdk/docs/1.0.0/overview/) · [Tài liệu tiếng Việt](https://7mlabs.com/astro/sdk/docs/1.0.0/overview/)
+[Source code](https://github.com/7mLabs/sdk-astro) · [English docs](https://7mlabs.com/en/astro/sdk/docs/1.1.0/overview/) · [Tài liệu tiếng Việt](https://7mlabs.com/astro/sdk/docs/1.1.0/overview/)
 
 - JavaScript / TypeScript: [@7mlabs/astrology](https://www.npmjs.com/package/@7mlabs/astrology)
 - Python: [sevenmlabs-astrology](https://pypi.org/project/sevenmlabs-astrology/)
 - .NET: [SevenMLabs.Astrology](https://www.nuget.org/packages/SevenMLabs.Astrology)
 
-Native OS and runtime support differ by package. Check the [platform guide](https://7mlabs.com/en/astro/sdk/docs/1.0.0/platforms/) before installing. Each repository documents its own license and third-party notices.
+Native OS and runtime support differ by package. Check the [platform guide](https://7mlabs.com/en/astro/sdk/docs/1.1.0/platforms/) before installing. Each repository documents its own license and third-party notices.
 
 ## Tiếng Việt
 
-7mlabs phát triển công cụ và ứng dụng giúp khám phá bản thân, hướng tới những kết nối có ý nghĩa. Dự án Astro gồm SDK cho lập trình viên, Payload để thực nghiệm dữ liệu và ứng dụng Compass. Astro SDK 1.0.0 đã phát hành; Payload và Compass đang được phát triển.
+7mlabs phát triển công cụ và ứng dụng giúp khám phá bản thân, hướng tới những kết nối có ý nghĩa. Dự án Astro gồm SDK cho lập trình viên, Payload để thực nghiệm dữ liệu và ứng dụng Compass. Astro SDK 1.1.0 đã phát hành; Payload đã có bản web, Compass đang được phát triển.
 
 ## Links and contact
 
