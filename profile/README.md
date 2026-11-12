@@ -1,38 +1,45 @@
-![7mlabs — Understand Within. Connect Beyond.](https://raw.githubusercontent.com/7mLabs/.github/main/profile/brand-banner.svg)
+<a href="https://7mlabs.com/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/7mlabs-workspace/.github/main/profile/assets/full-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/7mlabs-workspace/.github/main/profile/assets/full-logo-light.svg">
+    <img alt="7mlabs" src="https://raw.githubusercontent.com/7mlabs-workspace/.github/main/profile/assets/full-logo-light.svg" width="240" height="85">
+  </picture>
+</a>
 
-# 7mlabs
+### Hiểu mình. Kết nối sâu hơn.
 
-**Understand Within. Connect Beyond.**
+**Tiếng Việt** · [English](https://github.com/7mlabs-workspace/.github/blob/main/profile/README.en.md)
 
-Technology for self-discovery and meaningful connection.
+7mlabs xây dựng SDK và công cụ giúp lập trình viên đưa dữ liệu khám phá bản thân vào sản phẩm. Trọng tâm là **phép tính có thể kiểm chứng, đầu ra có cấu trúc và tài liệu rõ ràng**.
 
-7mlabs builds developer tools and applications around structured data and systems for self-exploration. **Astro** is our astrology project, with three complementary products:
+[Website](https://7mlabs.com/) · [Hệ sinh thái](https://7mlabs.com/structure/) · [Các kho trong workspace](https://github.com/orgs/7mlabs-workspace/repositories)
 
-| Product | Purpose | Status |
+---
+
+## SDK đang phát triển
+
+| Dự án | Phạm vi hiện có | Mã nguồn và tài liệu |
 | --- | --- | --- |
-| [Astro SDK](https://7mlabs.com/en/astro/sdk/) | Local calculations, structured JSON and customizable SVG charts for developers | **1.1.0 released** on npm, PyPI and NuGet |
-| [Payload](https://7mlabs.com/astro/payload/) | A web environment for exploring SDK inputs and outputs | Available |
-| Compass | An app for exploring and understanding yourself | In development |
+| **Numerology** | Thần số học Pythagorean; lõi Rust, gói Node.js, Python và .NET. Đã phát hành **1.0.0**. | [Mã nguồn](https://github.com/7mlabs-workspace/sdk-numerology) · [Giới thiệu SDK](https://7mlabs.com/numerology/sdk/) · [Tài liệu & công thức](https://7mlabs.com/numerology/sdk/docs/1.0.0/overview/) |
+| **Astro** | Lá số, quan hệ, sự kiện và forecast; dữ liệu JSON, SVG và các binding dùng chung lõi Rust. Đã phát hành **1.1.2**. | [Mã nguồn tại kho hiện tại](https://github.com/7mLabs/sdk-astro) · [Giới thiệu SDK](https://7mlabs.com/astro/sdk/) · [Tài liệu & công thức](https://7mlabs.com/astro/sdk/docs/1.1.2/overview/) |
 
-Existing Astro source and releases remain under [`7mLabs/sdk-astro`](https://github.com/7mLabs/sdk-astro). New SDK projects will be managed by `7mlabs-developer` in `7mlabs-workspace`.
+**Workspace mới, đúng kho cho từng dự án.** SDK mới được tổ chức tại `7mlabs-workspace`. Astro tiếp tục ở `7mLabs/sdk-astro`; mã nguồn, phát hành và báo lỗi của Astro vẫn dùng kho đó.
 
-## Start with Astro SDK
+## Bắt đầu tích hợp
 
-[Source code](https://github.com/7mLabs/sdk-astro) · [English docs](https://7mlabs.com/en/astro/sdk/docs/1.1.0/overview/) · [Tài liệu tiếng Việt](https://7mlabs.com/astro/sdk/docs/1.1.0/overview/)
+1. Chọn SDK, đọc phạm vi tính toán, trường phái/phương pháp và cấu hình hỗ trợ.
+2. Làm theo hướng dẫn cài đặt, ví dụ và hợp đồng dữ liệu của dự án.
+3. Kiểm tra giấy phép SDK và các thành phần đi kèm trước khi phân phối.
 
-- JavaScript / TypeScript: [@7mlabs/astrology](https://www.npmjs.com/package/@7mlabs/astrology)
-- Python: [sevenmlabs-astrology](https://pypi.org/project/sevenmlabs-astrology/)
-- .NET: [SevenMLabs.Astrology](https://www.nuget.org/packages/SevenMLabs.Astrology)
+SDK cung cấp phép tính và dữ liệu. Cách trình bày, nội dung luận giải và trải nghiệm người dùng thuộc ứng dụng tích hợp.
 
-Native OS and runtime support differ by package. Check the [platform guide](https://7mlabs.com/en/astro/sdk/docs/1.1.0/platforms/) before installing. Each repository documents its own license and third-party notices.
+## Giấy phép và đóng góp
 
-## Tiếng Việt
+- **Numerology:** [MIT](https://github.com/7mlabs-workspace/sdk-numerology/blob/main/LICENSE).
+- **Astro:** bản phân phối native có Swiss dùng AGPL; phần đóng góp 7mlabs được xác định có thêm quyền MIT riêng. Quyền Swiss Professional theo hợp đồng Swiss áp dụng. [Đọc phạm vi giấy phép](https://7mlabs.com/astro/sdk/docs/1.1.2/license/).
 
-7mlabs phát triển công cụ và ứng dụng giúp khám phá bản thân, hướng tới những kết nối có ý nghĩa. Dự án Astro gồm SDK cho lập trình viên, Payload để thực nghiệm dữ liệu và ứng dụng Compass. Astro SDK 1.1.0 đã phát hành; Payload đã có bản web, Compass đang được phát triển.
+Báo lỗi/đề xuất tại đúng dự án: [Numerology Issues](https://github.com/7mlabs-workspace/sdk-numerology/issues) · [Astro Issues](https://github.com/7mLabs/sdk-astro/issues). Gửi kèm phiên bản SDK, môi trường chạy và ví dụ tái hiện tối thiểu.
 
-## Links and contact
+---
 
-[Website](https://7mlabs.com/) · [Facebook](https://www.facebook.com/7mlabs) · [X / @7mlabs](https://x.com/7mlabs)
-
-For technical questions and reproducible bug reports, use the relevant repository's Issues. General contact: [support@7mlabs.com](mailto:support@7mlabs.com).
-
+**7mlabs** · Mỗi dự án có phạm vi, tiến độ và giấy phép riêng.
