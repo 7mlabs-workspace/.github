@@ -21,7 +21,7 @@
 | Dự án | Phạm vi hiện có | Mã nguồn và tài liệu |
 | --- | --- | --- |
 | **Numerology** | Thần số học Pythagorean; lõi Rust, gói Node.js, Python và .NET. Đã phát hành **1.0.0**. | [Mã nguồn](https://github.com/7mlabs-workspace/sdk-numerology) · [Giới thiệu SDK](https://7mlabs.com/numerology/sdk/) · [Tài liệu & công thức](https://7mlabs.com/numerology/sdk/docs/1.0.0/overview/) |
-| **Astro** | Lá số, quan hệ, sự kiện và forecast; dữ liệu JSON, SVG và các binding dùng chung lõi Rust. Đã phát hành **1.1.2**. | [Mã nguồn tại kho hiện tại](https://github.com/7mLabs/sdk-astro) · [Giới thiệu SDK](https://7mlabs.com/astro/sdk/) · [Tài liệu & công thức](https://7mlabs.com/astro/sdk/docs/1.1.2/overview/) |
+| **Astro** | Lá số, quan hệ, sự kiện và forecast; dữ liệu JSON, SVG và các binding dùng chung lõi Rust. Đã phát hành **1.1.3**. | [Mã nguồn tại kho hiện tại](https://github.com/7mLabs/sdk-astro) · [Giới thiệu SDK](https://7mlabs.com/astro/sdk/) · [Tài liệu & công thức](https://7mlabs.com/astro/sdk/docs/1.1.3/overview/) |
 
 **Workspace mới, đúng kho cho từng dự án.** SDK mới được tổ chức tại `7mlabs-workspace`. Astro tiếp tục ở `7mLabs/sdk-astro`; mã nguồn, phát hành và báo lỗi của Astro vẫn dùng kho đó.
 
@@ -36,7 +36,7 @@ SDK cung cấp phép tính và dữ liệu. Cách trình bày, nội dung luận
 ## Giấy phép và đóng góp
 
 - **Numerology:** [MIT](https://github.com/7mlabs-workspace/sdk-numerology/blob/main/LICENSE).
-- **Astro:** bản phân phối native có Swiss dùng AGPL; phần đóng góp 7mlabs được xác định có thêm quyền MIT riêng. Quyền Swiss Professional theo hợp đồng Swiss áp dụng. [Đọc phạm vi giấy phép](https://7mlabs.com/astro/sdk/docs/1.1.2/license/).
+- **Astro:** bản phân phối native có Swiss dùng AGPL; phần đóng góp 7mlabs được xác định có thêm quyền MIT riêng. Quyền Swiss Professional theo hợp đồng Swiss áp dụng. [Đọc phạm vi giấy phép](https://7mlabs.com/astro/sdk/docs/1.1.3/license/).
 
 Báo lỗi/đề xuất tại đúng dự án: [Numerology Issues](https://github.com/7mlabs-workspace/sdk-numerology/issues) · [Astro Issues](https://github.com/7mLabs/sdk-astro/issues). Gửi kèm phiên bản SDK, môi trường chạy và ví dụ tái hiện tối thiểu.
 
